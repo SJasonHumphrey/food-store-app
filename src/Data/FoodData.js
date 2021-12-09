@@ -51,6 +51,7 @@ export const foodItems = [
   },
   {
     price: 1,
+    img: "/img/soda.jpeg",
     name: "Soda",
     section: "Drinks",
     choices: ["Coke", "Sprite", "Root Beer"]
@@ -65,4 +66,4 @@ export const foods = foodItems.reduce((res, food) => {
   return res;
 }, {});
 
-//  © created by react.school
+
