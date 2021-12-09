@@ -70,7 +70,7 @@ export function Order({ orders, setOrders, setOpenFood }) {
   return (
     <OrderStyled>
       {orders.length === 0 ? (
-        <OrderContent>Your order's looking pretty empty.</OrderContent>
+        <OrderContent>Cart is Empty</OrderContent>
       ) : (
         <OrderContent>
           {" "}

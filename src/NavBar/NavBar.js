@@ -12,7 +12,7 @@ const NavbarStyled = styled.div`
 `;
 
 const Logo = styled(Title)`
-  font-size: 24px;
+  font-size: 22px;
   color: white;
   text-shadow: 1px 1px 4px #380502;
 `;
@@ -21,7 +21,7 @@ export function Navbar() {
   return (
     <NavbarStyled>
       <Logo>
-        Sliceline{" "}
+        Slices{" "}
         <span role="img" aria-label="pizza slice">
           🍕
         </span>
